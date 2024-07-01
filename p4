@@ -46,7 +46,7 @@ rotation_matrix = np.array([[np.cos(theta), -np.sin(theta), 0],
                             [0, 0, 1]]) # Rotation by 45 degrees
 
 objects = [square, triangle]
-#transformations = [scaling_matrix, shearing_matrix]
+
 transformations = [translation_matrix, rotation_matrix]
 titles = ['Translation', 'Rotation']
 
